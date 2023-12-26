@@ -1,0 +1,325 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: purple;
+  overflow-x: hidden;
+}
+html {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  
+}
+
+.heading {
+  background-color: purple;
+  height: 93px;
+  width: 100%;
+}
+header {
+  display: flex;
+}
+header button {
+  margin-left: 99px;
+  height: 30px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 0.5em;
+  border-color: white;
+  width: 132px;
+  background-color: white;
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(248, 179, 4);
+  color: white;
+}
+.brandlogo img{
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 0.5rem;
+}
+
+a {
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(248, 179, 4);
+}
+.mylist {
+  margin-top: -9.9vh;
+  margin-left: 100px;
+  display: flex;
+  text-align: center;
+  list-style: none;
+  font-size: medium;
+}
+li a {
+  margin-left: 70px;
+}
+.heading input{
+  width: 200px;
+  border-radius: 12px;
+  border-style: hidden;
+  height: 30px;
+  margin-top: 35px;
+  border-color: white;
+}
+.brandlogo img{
+  height: 80px;
+}
+.heading button{
+  margin-left: -5px;
+  margin-top: 35px
+}
+
+body {
+  
+  background: rgb(purple, grey, blue);
+}
+.welcoment {
+  padding: 2rem;
+  margin-top: 5px;
+  display: flex;
+  font-size: xx-large;
+  color: #ff7200;
+  border-radius: 0.3rem;
+  background: transparent;
+}
+.slider wraper{
+  position: 
+  max-width 48rem;
+  /* margin: 0 auto; */
+}
+main {
+  background-color: rgba(246, 239, 220, 0.25);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+section {
+  display: grid;
+}
+.majorbox {
+  display: flex;
+  height: max-content;
+  width: min-content;
+  color: purple;
+  margin: 50px;
+  margin-left: 14px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.veryG {
+  margin-top: 29px;
+  height: max-content;
+  border-style: solid;
+  width: 100%;
+  border-radius: 12px;
+  color: white;
+}
+.veryG > h1 {
+  font-size: xx-large;
+  font-style: italic;
+}
+.veryG,
+p {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: small;
+}
+.vocalplug {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+  color: purple;
+  aspect-ratio: 16/9;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem --0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+.v1{
+  display: grid;
+  margin-top: 30vh;
+  margin-left: 100px;
+}
+.v1 p{
+  width: 200%;
+}
+.vocalplug span {
+  color: #ff7200;
+}
+.vocalplug p {
+  font-size: large;
+  font-family: Arial;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: start;
+}
+.vocalplug span {
+  color: purple;
+}
+.prayer button {
+  margin-left: 3pc;
+  height: 30px;
+  margin: 40px;
+  text-align: center;
+  margin-left: 199px;
+  border-radius: 0.5em;
+  border-color: rgba(128, 0, 128, 0.19);
+  width: 142px;
+  background: transparent;
+  color: rgb(248, 179, 4);
+  font-size: large;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.prayer > button:hover {
+  background-color: purple;
+  color: white;
+}
+.majorbox.box1,
+.box2,
+.box3 {
+  margin-left: 79px;
+  display: grid;
+}
+
+.box1,
+.box2,
+.box3 {
+  height: 400px;
+  line-height: normal;
+  border-radius: 12px;
+  border-color: rgb(248, 179, 4);
+  border-style: solid;
+  width: 300px;
+}
+.dura button {
+  height: 30px;
+  margin: 40px;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+  border-color: rgba(128, 0, 128, 0.19);
+  width: 140px;
+  background: transparent;
+  color: rgb(248, 179, 4);
+  font-size: medium;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.dura > button:hover {
+  background-color: purple;
+  color: white;
+}
+/* body{
+  min-width: 100%;
+} */
+.weekly-programs {
+  display: grid;
+  height: 500px;
+  width: 400px;
+  background-color: #c3b99e5f;
+  /* margin-left: 68%; */
+  border-radius: 15px;
+}
+.trod{
+  display: flex;
+  gap: 120px;
+  margin: 0 40px;
+}
+input,
+.input {
+  margin: 11px;
+  height: 40px;
+  width: 300px;
+  margin-left: 50px;
+  text-align: center;
+}
+.weekly-programs h1{
+  font-size: 20px;
+}
+.weekly-programs p{
+  padding: 0 20px;
+}
+.weekly-programs > button {
+  width: 300px;
+  height: 40px;
+  margin-left: 50px;
+  border-radius: 12px;
+  border-color: aliceblue;
+  background-color: #fff;
+  color: #ff7200;
+  font-size: medium;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.weekly-programs button:hover {
+  background-color: purple;
+  color: #fff;
+}
+footer {
+  display: flex;
+  margin-top: 15px;
+  padding: 5px;
+  width: 100%;
+  background-color: rgba(44, 2, 44, 0.807);
+}
+.footerhead {
+  margin-left: 80px;
+  display: flex;
+  text-align: center;
+  font-size: large;
+  color: #ff7200;
+}
+.footer1 {
+  margin-left: -63px;
+  line-height: 5vh;
+  font-style: italic;
+  
+}
+
+.lis {
+  list-style: none;
+  font-size: medium;
+}
+h2 > a {
+  font-size: medium;
+}
+.icons :hover{
+  transform: translateY(-2px)
+}
+.icons{
+  
+    list-style: none;
+}
+footer>icons{
+  flex-direction: column;
+}
+section{
+  .box1:hover{
+    transform: translateY(-3px)
+  }
+  .box2:hover{
+    transform: translateY(-3px)
+  }
+  .box3:hover{
+    transform: translateY(-3px)
+  }
+}
+ 
