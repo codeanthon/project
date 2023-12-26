@@ -36,6 +36,7 @@ section{
     background-color: purple;
     border-radius: 0.5rem;
     border-color: rgba(128, 0, 128, 0.19);
+    cursor: pointer;
 }
 /* .history h2:hover{
     background-color: purple;
@@ -70,14 +71,15 @@ section{
 
 /* styling footer  */
 .logslogo{
+    margin-top: 5px;
     display: flex;
-    gap: 40px;
-    padding: 0 32%;
+    gap: 20px;
+    padding: 0 40%;
     margin-bottom: 20px;
 }
 .logslogo img{
-    width: 50px;
-    height: 40px;
+    width: 30px;
+    height: 20px;
 }
 footer{
     display: grid;
