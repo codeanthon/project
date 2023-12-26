@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -31,12 +33,13 @@ section{
     text-align: center;
     margin-bottom: 20px;
     margin-left: 35%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
     background-color: purple;
     border-radius: 0.5rem;
     border-color: rgba(128, 0, 128, 0.19);
     cursor: pointer;
+    font-family: 'Pacifico', cursive;
 }
 /* .history h2:hover{
     background-color: purple;
